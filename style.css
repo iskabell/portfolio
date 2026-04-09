@@ -1,6 +1,204 @@
+html {
+  --color-accent: #024D60;
+  accent-color: var(--color-accent);
+}
+
 body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
   font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding-inline: 1em;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #2CACAD;
+}
+
+nav ul,
+nav li {
+  display: contents;
+}
+
+nav a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav a.current {
+  border-bottom: 0.4em solid #024D60;
+  padding-bottom: 0.1em;
+}
+
+nav a:hover {
+  border-bottom: 0.4em solid #2CACAD;
+  padding-bottom: 0.1em;
+  background-color: #DFF8F7;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+
+form label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  align-items: start;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  gap: 1em;
+}
+
+.projects h2,
+.projects p {
+  margin: 0;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.resume {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.resume-header {
+  padding-block: 0.5rem 1rem;
+  border-bottom: 3px solid #024D60;
+}
+
+.resume-header h1 {
+  margin: 0;
+}
+
+.resume-contact {
+  margin-top: 0.5rem;
+  color: #36525c;
+}
+
+.resume section {
+  background: #f7fbfc;
+  border: 1px solid #d7ecec;
+  border-left: 0.5rem solid #2CACAD;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+}
+
+.resume section h2 {
+  margin: 0 0 0.75rem 0;
+  color: #024D60;
+  font-size: 1.4rem;
+}
+
+.resume-entry {
+  margin-bottom: 1rem;
+}
+
+.resume-entry:last-child {
+  margin-bottom: 0;
+}
+
+.resume-entry header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.35rem;
+}
+
+.resume-entry h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.resume-entry .meta {
+  color: #4d6870;
+  font-size: 0.95rem;
+}
+
+.resume-entry p {
+  margin: 0.35rem 0 0 0;
+}
+
+.resume-entry ul {
+  margin: 0.5rem 0 0 1.2rem;
+  padding: 0;
+}
+
+.resume-entry li + li {
+  margin-top: 0.35rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.75rem 1.5rem;
+}
+
+.skills-grid p {
+  margin: 0;
+}
+
+.resume strong {
+  color: black;
+  fot-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .resume-entry header {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
 }
