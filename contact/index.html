@@ -5,36 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../style.css">
+    <script src="../global.js" type="module"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../">Home</a></li>
-            <li><a href="../projects/">Projects</a></li>
-            <li><a href="../resume/">Resume</a></li>
-            <li><a href="../contact/" class="current">Contact</a></li>
-        </ul>
-    </nav>
-
     <h1>Contact</h1>
 
-    <form action="mailto:i8yang@ucsd.edu" method="POST" enctype="text/plain">
+    <form action="mailto:i8yang@ucsd.edu">
         <label>
-            Email:
-            <input name="email" type="email" value="example@email.com">
+            <span>Subject:</span>
+            <input name="subject">
         </label>
 
         <label>
-            Subject:
-            <input name="subject" value="Hello">
+            <span>Body:</span>
+            <textarea name="body"></textarea>
         </label>
 
-        <label>
-            Message:
-            <textarea name="body">Hi! I wanted to reach out.</textarea>
-        </label>
-
-        <button>Send</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
