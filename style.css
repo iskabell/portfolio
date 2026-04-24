@@ -238,3 +238,24 @@ h1 {
     gap: 0.2rem;
   }
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem 2rem;
+  margin: 0;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  color: var(--muted-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 1.75rem;
+}
