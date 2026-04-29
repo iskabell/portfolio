@@ -4,7 +4,7 @@ function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
 
-const BASE_PATH =
+export const BASE_PATH =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "/"
     : "/portfolio/";
@@ -134,7 +134,10 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
     article.innerHTML = `
       <${headingLevel}>${project.title}</${headingLevel}>
       <img src="${project.image}" alt="${project.title}">
-      <p>${project.description}</p>
+      <div>
+        <p>${project.description}</p>
+        <p class="project-year">${project.year}</p>
+      </div>
     `;
 
     containerElement.appendChild(article);
