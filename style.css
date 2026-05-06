@@ -342,3 +342,20 @@ h1 {
   font-weight: bold;
   color: var(--color);
 }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  gap: 1em;
+  margin-block: 2em;
+}
+
+.stats dt {
+  font-weight: bold;
+  color: gray;
+}
+
+.stats dd {
+  margin: 0;
+  font-size: 2em;
+}
