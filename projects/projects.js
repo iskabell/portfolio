@@ -40,8 +40,6 @@ function updatePage() {
 
   renderProjects(visibleProjects, projectsContainer, "h2");
 
-  // Pie chart should show all years from the search results,
-  // not only the selected year.
   renderPieChart(searchFilteredProjects);
 }
 
@@ -62,7 +60,6 @@ function renderPieChart(projectsGiven) {
     return { value: count, label: year };
   });
 
-  // If the selected year is no longer in the searched results, deselect it
   const selectedYearStillExists = data.some((d) => d.label === selectedYear);
   if (!selectedYearStillExists) {
     selectedYear = null;

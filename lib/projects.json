@@ -1,74 +1,93 @@
 [
-    {
-        "title": "CIFAR-10 Image Classification",
-        "year": "2025",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Built and trained a convolutional neural network using Python and PyTorch to classify CIFAR-10 images into 10 categories. Implemented preprocessing, batch training, evaluation, and data augmentation techniques."
-    },
-    {
-        "title": "Women In Computing @UCSD Website",
-        "year": "2025",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Collaborated on an informational website about UCSD colleges, including GE requirements, housing options, and dining halls. Built interactive features using HTML, CSS, and JavaScript."
-    },
-    {
-        "title": "Image & Audio Processing Toolkit",
-        "year": "2025",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Developed an object-oriented image and audio processing toolkit using Python, NumPy, and PIL. Supported grayscale conversion, rotation, brightness adjustment, audio reversal, clipping, and speed changes."
-    },
-    {
-        "title": "Spotify Song Analysis & Recommendation System",
-        "year": "2024",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Analyzed Spotify song metadata and lyrics using Python, Pandas, and Matplotlib. Built a recommendation tool that identifies Taylor Swift songs with similar features to popular Spotify tracks."
-    },
-    {
-        "title": "Expository Visualization: Grocery Store Foods",
-        "year": "2026",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Designed a static expository visualization showing that ultra-processed foods are cheaper per 100 calories in many broad food categories. Cleaned and transformed GroceryDB data to compare median cost differences."
-    },
-    {
-        "title": "Lorem ipsum dolor sit.",
-        "year": "2014",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laborum dolor, nostrum reiciendis labore ipsa placeat consequuntur blanditiis! Magni eius consectetur pariatur animi ea asperiores perspiciatis placeat quidem natus deleniti?"
-    },
-    {
-        "title": "Quis dolor veniam expedita.",
-        "year": "2016",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Exercitationem rem, perferendis amet, quae atque, laborum pariatur nisi voluptatum accusamus porro vitae dolor optio. Vel quasi, pariatur iusto nesciunt dolores earum rerum eligendi nihil sed suscipit tempora nam eum."
-    },
-    {
-        "title": "Quam, quae? Minima, saepe!",
-        "year": "2017",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Facilis commodi ea dolor nihil aperiam nam minima quia et reiciendis enim. Magnam eveniet ducimus suscipit nulla beatae vitae pariatur possimus provident repudiandae saepe, molestiae sint libero aspernatur nesciunt tempore!"
-    },
-    {
-        "title": "Sed sunt commodi ullam?",
-        "year": "2015",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quisquam, sed veritatis praesentium sit delectus minus repudiandae. Dolore ad dicta accusantium. Repudiandae mollitia aliquam harum recusandae tempora. Natus est accusantium nam cum molestiae deleniti facilis doloribus. Dignissimos, nobis nam!"
-    },
-    {
-        "title": "Enim reprehenderit error iusto!",
-        "year": "2019",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quis, adipisci doloribus! Id deleniti ipsam non impedit debitis quae, accusantium aspernatur, molestiae animi est commodi ab tempora aliquam cum aperiam ullam mollitia minus voluptatem placeat odio nulla sapiente! Mollitia!"
-    },
-    {
-        "title": "Debitis corporis saepe et?",
-        "year": "2018",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Inventore labore iure minus maxime quisquam dignissimos, incidunt ullam harum beatae autem et esse ipsum ut repudiandae fugit vero voluptate in ratione neque? Recusandae, quo aliquam animi asperiores eius ducimus."
-    },
-    {
-        "title": "Optio architecto a consequatur!",
-        "year": "2020",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quo saepe exercitationem, a, eligendi deleniti harum rerum quidem repudiandae ex velit eum libero, aliquam voluptatum minus accusantium inventore quas ipsum architecto. Sed quisquam perspiciatis iusto id cum, ducimus molestias!"
-    }
+  {
+    "title": "Boston Bike Traffic Visualization",
+    "year": "2026",
+    "image": "images/boston_bike_map.png",
+    "description": "Built an interactive Mapbox and D3 visualization of BlueBike traffic patterns in the Boston area. Added bike lane layers, station markers, time filtering, traffic-scaled circles, directional flow colors, tooltips, and a legend.",
+    "url": "https://iskabell.github.io/geospatial-visualization/"
+  },
+  {
+    "title": "CIFAR-10 Image Classification",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Built and trained a convolutional neural network using Python and PyTorch to classify CIFAR-10 images into 10 categories. Implemented preprocessing, batch training, evaluation, and data augmentation techniques.",
+    "url": ""
+  },
+  {
+    "title": "Women In Computing @UCSD Website",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Collaborated on an informational website about UCSD colleges, including GE requirements, housing options, and dining halls. Built interactive features using HTML, CSS, and JavaScript.",
+    "url": ""
+  },
+  {
+    "title": "Image & Audio Processing Toolkit",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Developed an object-oriented image and audio processing toolkit using Python, NumPy, and PIL. Supported grayscale conversion, rotation, brightness adjustment, audio reversal, clipping, and speed changes.",
+    "url": ""
+  },
+  {
+    "title": "Spotify Song Analysis & Recommendation System",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Analyzed Spotify song metadata and lyrics using Python, Pandas, and Matplotlib. Built a recommendation tool that identifies Taylor Swift songs with similar features to popular Spotify tracks.",
+    "url": ""
+  },
+  {
+    "title": "Expository Visualization: Grocery Store Foods",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Designed a static expository visualization showing that ultra-processed foods are cheaper per 100 calories in many broad food categories. Cleaned and transformed GroceryDB data to compare median cost differences.",
+    "url": ""
+  },
+  {
+    "title": "Lorem ipsum dolor sit.",
+    "year": "2014",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laborum dolor, nostrum reiciendis labore ipsa placeat consequuntur blanditiis! Magni eius consectetur pariatur animi ea asperiores perspiciatis placeat quidem natus deleniti?",
+    "url": ""
+  },
+  {
+    "title": "Quis dolor veniam expedita.",
+    "year": "2016",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Exercitationem rem, perferendis amet, quae atque, laborum pariatur nisi voluptatum accusamus porro vitae dolor optio. Vel quasi, pariatur iusto nesciunt dolores earum rerum eligendi nihil sed suscipit tempora nam eum.",
+    "url": ""
+  },
+  {
+    "title": "Quam, quae? Minima, saepe!",
+    "year": "2017",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Facilis commodi ea dolor nihil aperiam nam minima quia et reiciendis enim. Magnam eveniet ducimus suscipit nulla beatae vitae pariatur possimus provident repudiandae saepe, molestiae sint libero aspernatur nesciunt tempore!",
+    "url": ""
+  },
+  {
+    "title": "Sed sunt commodi ullam?",
+    "year": "2015",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Quisquam, sed veritatis praesentium sit delectus minus repudiandae. Dolore ad dicta accusantium. Repudiandae mollitia aliquam harum recusandae tempora. Natus est accusantium nam cum molestiae deleniti facilis doloribus. Dignissimos, nobis nam!",
+    "url": ""
+  },
+  {
+    "title": "Enim reprehenderit error iusto!",
+    "year": "2019",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Quis, adipisci doloribus! Id deleniti ipsam non impedit debitis quae, accusantium aspernatur, molestiae animi est commodi ab tempora aliquam cum aperiam ullam mollitia minus voluptatem placeat odio nulla sapiente! Mollitia!",
+    "url": ""
+  },
+  {
+    "title": "Debitis corporis saepe et?",
+    "year": "2018",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Inventore labore iure minus maxime quisquam dignissimos, incidunt ullam harum beatae autem et esse ipsum ut repudiandae fugit vero voluptate in ratione neque? Recusandae, quo aliquam animi asperiores eius ducimus.",
+    "url": ""
+  },
+  {
+    "title": "Optio architecto a consequatur!",
+    "year": "2020",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Quo saepe exercitationem, a, eligendi deleniti harum rerum quidem repudiandae ex velit eum libero, aliquam voluptatum minus accusantium inventore quas ipsum architecto. Sed quisquam perspiciatis iusto id cum, ducimus molestias!",
+    "url": ""
+  }
 ]
