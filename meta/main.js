@@ -302,10 +302,8 @@ function renderScatterPlot(data, commits) {
         renderLanguageBreakdown(selection);
     }
 
-    // Create brush
     svg.call(d3.brush().on('start brush end', brushed));
 
-    // Keep dots hoverable after brush overlay is added
     svg.selectAll('.dots, .overlay ~ *').raise();
 }
 
